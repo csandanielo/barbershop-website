@@ -1,0 +1,112 @@
+body {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	background: #f5f2f2;
+	padding: 20px 0;
+}
+.home{
+  margin: 200px;
+  align-items: center;
+
+}
+.image-container{
+  position:absolute;
+  display: block;
+  margin: 0 auto;
+  top: 0%;
+  left: 0%;
+
+}
+
+.imagem{
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+
+
+}
+
+.text-container{
+  position:absolute;
+  display: block;
+  margin: auto;
+  left: 14%;
+  top: 5%;
+  background-color: black;
+  width: 100%;
+  top: 0;
+	right: 0;
+  height: 200px;
+
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	font-weight: bold;
+  top: -50px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+.banner {
+	width: 120%;
+  margin-top: -40px;
+  margin-left: -20px;
+
+
+}
+
+.principal{
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+    margin: 0 auto;
+}
+.principal p {
+	margin: 0 0 1em;
+
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-size: italic;
+}
+
+.imagemicone {
+	width: 15%;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
