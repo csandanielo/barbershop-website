@@ -1,1 +1,52 @@
-<p>produtos works!</p>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Produtos - Campestre Barber & Sports</title>
+	</head>
+	<body>
+    <section class="header-produtos">
+
+			<div class="titulo">Campestre Barber & Sports</div>
+
+      <div class="image-header">
+        <img class="imagem" src="assets/listras.png" alt="Listras diagonais vermelhas e azuis">
+      </div>
+
+    <div class="card">
+      <p-toolbar>
+        <div class="p-toolbar-start">
+          <a routerLink="/home" class="mr-2" pButton label=" Home " icon="pi pi-check"></a>
+          <a routerLink="/login" class="mr-2" pButton label=" Login " icon="pi pi-user"></a>
+          <a routerLink="/produtos" class="mr-2" pButton label=" Produtos " icon="pi pi-search"></a>
+          <a routerLink="/contato" class="mr-2" pButton label=" Agendamento " icon="pi pi-calendar"></a>
+        </div>
+      </p-toolbar>
+    </div>
+  </section>
+		<main>
+			<ul class="produtos">
+				<li>
+					<h2>Cabelo</h2>
+					<img src="assets/cabelo.jpg">
+					<p class="produto-descricao">Na tesoura ou máquina, <br>como o cliente preferir</p>
+					<p class="produto-preco">R$ 40,00</p>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="assets/barba.jpg">
+					<p class="produto-descricao">Corte e desenho profissional <br>de barba</p>
+					<p class="produto-preco">R$ 20,00</p>
+				</li>
+				<li>
+					<h2>Cabelo + Barba</h2>
+					<img src="assets/cabelo+barba.jpg">
+					<p class="produto-descricao">Pacote completo de cabelo <br> e barba</p>
+					<p class="produto-preco">R$ 55,00</p>
+				</li>
+			</ul>
+		</main>
+	</body>
+</html>

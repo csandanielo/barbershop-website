@@ -4,25 +4,29 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContatoComponent } from './contato/contato.component';
 import { HomeComponent } from './home/home.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { ToolbarModule } from 'primeng/toolbar';
 import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
+import { LoginComponent } from './login/login.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProdutosComponent,
-    ContatoComponent
+    ContatoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
     AppRoutingModule,
     ToolbarModule,
-    CardModule
+    CardModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
